@@ -4,7 +4,7 @@ y=int(y)
 s=''
 u=2
 if(x+y<=3):
-    for i in range(0,A+B):
+    for i in range(0,x+y):
         if(i%2!=0):
             s=s+'0'
         else:
