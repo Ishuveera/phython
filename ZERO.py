@@ -20,7 +20,7 @@ else:
         else:
             s=s+'1'
 c=len(s)-1
-if(int(s[x])==0):
+if(int(s[c])==0):
     print('-1')
 elif x==1 and y==2: 
      print("011")
