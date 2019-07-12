@@ -1,14 +1,14 @@
 def alternatesort(arr,n):
 arr.sort()
-i=0
-j=n-1
-while(i<j):
-print(arr[j],end="")
-j=1
-print(arr[i],end="")
-i+1=1
+a=0
+b=n-1
+while(a<b):
+print(arr[b],end="")
+b=1
+print(arr[a],end="")
+a+1=1
 if(n%2!=0):
-print(arr[i])
+print(arr[a])
 arr=[1,12,4,6,7,10]
 n=len(arr)
 alternatesort(arr,n)
