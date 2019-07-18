@@ -1,5 +1,5 @@
 x=input()
-list=['saturday','sunday']
+list=['Saturday','Sunday']
 if(x in list):
   print('yes')
 else:
