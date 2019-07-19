@@ -1,5 +1,6 @@
-S,U=map(int,input().split())
-L1=len(str(S))
-L2=list(combinations(str(S),L1-U))
-L2=sorted(L2)
-print(*L2[0],sep='')
+from itertools import combinations
+Si,U=map(int,input().split())
+Lis=len(str(Si))
+Lst=list(combinations(str(Si),Lis-U))
+Lst=sorted(Lst)
+print(*Lst[0],sep='')
