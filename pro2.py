@@ -1,0 +1,5 @@
+S,U=map(int,input().split())
+L1=len(str(S))
+L2=list(combinations(str(S),L1-U))
+L2=sorted(L2)
+print(*L2[0],sep='')
