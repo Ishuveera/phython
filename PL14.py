@@ -1,14 +1,14 @@
 from itertools import permutations
-Ssh=input()
-Ssh=list(Ssh)
-perm=permutations(Ssh)
+Sh=input()
+Sh=list(Sh)
+perm=permutations(Sh)
 A=[]
-for X in list(perm):
-    A.append(''.join(list(X)))
+for Y in list(perm):
+    A.append(''.join(list(Y)))
 B=list(set(A))
 C=[]
-for Y in range(len(B)):
-    C.append(b[Y])
+for X in range(len(B)):
+    C.append(B[X])
 C.sort()
-for Y in range(len(C)):
-    print(C[Y])
+for X in range(len(C)):
+    print(C[X])
