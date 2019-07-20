@@ -6,7 +6,7 @@ for _ in range(M):
     S+=9
 for X in range(Nn-S,Nn):
     R=0
-    D=i
+    D=X
     while D>0:
         R+=(D%10)
         D=D//10
