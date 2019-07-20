@@ -1,4 +1,4 @@
-Nn1,kk=map(int,input().split())
+Nn1,KK=map(int,input().split())
 Xx=[]
 L1=[]
 for Y in range(Nn1):
@@ -9,7 +9,7 @@ for Y in range(Nn1):
         L1.append(M)
 for Y in range(len(Xx)):
     if 0 in Xx[Y]:
-        for Z in range(Kk):
+        for Z in range(KK):
             Xx[Y][Z]=0
 for Y in L1:
     for Z in range(Nn1):
