@@ -1,4 +1,4 @@
 N1=int(input())
-Lst=list(map(int,input().split()))
-Lst.sort()
-print(Lst[0])
+Lst1=list(map(int,input().split()))
+Lst1.sort()
+print(Lst1[0])
